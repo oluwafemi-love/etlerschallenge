@@ -1,0 +1,12 @@
+Structure:
+1. Create a Class called Product.
+2. Product will have a Title
+3. Product will have an Amount
+4. Product will have a Add function
+5. Product will have a Remove function
+6. Product will have a Counter/Sum function
+7. Product will have a Send function
+
+Algorithm:
+
+Logic:

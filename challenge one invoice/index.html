@@ -1,0 +1,62 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Invoice</title>
+  </head>
+  <body>
+    <container>
+      <header>
+        <h1 class="header-title">Invoice Creator</h1>
+        <h6 class="header-subtitle">Thanks for choosing Loveables, LLC!</h6>
+      </header>
+
+      <main class="itemList">
+        <div class="displayItems">
+          <button type="button" class="btnDsp">Item</button>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th scope="col">Item</th>
+              <th scope="col">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <ul class="itemTitle"></ul>
+              </th>
+              <td>
+                <ol class="itemAmount"></ol>
+              </td>
+              </tr>
+          </tbody>
+        </table>
+        
+      </main>
+
+      <footer>
+        <div class="form-control">
+          <input id="addItemTextInput" type="text" placeholder="Input Item" />
+          <input id="addItemAmount" type="number" placeholder="Input Amount" />
+          <button onclick="handlers.addItem()">Add</button>
+
+          <h1 id="totalAmount">
+            <span>Total</span>
+            $0
+          </h1>
+        </div>
+
+        <div class="c2a">
+          <button name="sendInvoice" value="">Send Invoice</button>
+          <h5>We accept cash, credit card, or Paypal</h5>
+        </div>
+      </footer>
+    </container>
+    <script src="app.js"></script>
+  </body>
+</html>

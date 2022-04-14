@@ -1,0 +1,151 @@
+ body {
+   font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
+
+ container {
+   display: grid;
+   grid-template-rows: 10em auto 10em;
+   grid-template-columns: 5fr 1fr 1fr;
+   grid-template-areas:
+     "header header header"
+     "main main main"
+     "footer footer footer";
+   border: 5px solid #F9F9F9;
+   border-radius: 10px;
+ }
+
+ header {
+   grid-area: header;
+   background-color: #1366C8;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   color: #fff;
+
+ }
+
+ .header-title {
+   font-size: 2em;
+   margin: 0;
+
+ }
+
+ .header-subtitle {
+   margin: 0;
+   font-weight: normal;
+
+ }
+
+
+ main {
+   grid-area: main;
+   background-color: #292A2B;
+ }
+
+
+ footer {
+   grid-area: footer;
+   background-color: #292A2B;
+   border-top: 0.5px solid #f9f9f9;
+ }
+ .form-control{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin: 2em;
+  
+ }
+ .form-control input{
+   font-weight: normal;
+   font-size: large;
+   max-height: 2em;
+ }
+ .form-control button{
+  font-weight: normal;
+  font-size: large;
+  max-height: 2em;
+
+  padding: .1em 3em;
+  border: 1px solid #446d88;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: .2em;
+  color: white;
+  text-shadow: 0 -.05em .05em #335166;
+  font-size: 125%;
+  line-height: 1.5;
+}
+
+ .c2a {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color: #292A2B;
+   
+
+
+ }
+
+ .c2a button {
+   background-color: #1366C8;
+   padding: .3em 6em;
+   border: 1px solid #446d88;
+   background: #58a linear- gradient (#77a0bb, #58a);
+   border-radius: .2em;
+   box-shadow: 0 .05em .25em rgb(105, 222, 255);
+   color: white;
+   text-shadow: 0 -.05em .05em #335166;
+   font-size: 125%;
+   line-height: 1.5;
+   margin-top: 2em;
+
+ }
+
+ .c2a h5 {
+   color: rgb(179, 212, 236);
+   font-size: 12px;
+   font-weight: normal;
+   /* margin: 0; */
+   margin-bottom: 5em;
+
+ }
+ span{
+   font-size: smaller;
+   font-weight: normal;
+   /* Make it smaller and use it as superscript */
+
+ }
+
+ .displayItems button{
+  padding: .3em 6em;
+  background: rgb(255, 255, 255) linear- gradient (#77a0bb, #58a);
+  border-radius: .2em;
+  color: black;
+  font-size: 125%;
+  line-height: 1.5;
+  margin: 2em;
+
+ }
+
+ main ul ,ol{
+   color: white;
+   list-style: none;
+
+ }
+table{
+  margin: 1em auto;
+  text-align: center;
+}
+ table, th, td {
+  color: white;
+  border: 1px solid #333;
+
+  }
+
+  tr th, td{
+    padding: 2em;
+
+
+  }
